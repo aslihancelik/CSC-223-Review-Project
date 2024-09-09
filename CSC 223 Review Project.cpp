@@ -8,30 +8,27 @@ using namespace std;
 
 int main()
 {
-    //cout << fixed << setprecision(1) << showpoint;
-    cout << "From default constructor" << endl;
-    PointType<int> p1I;
-    PointType<double> p1D;
-    cout << "Integer point: ";
-    p1I.print();
-    cout << "Double Point: ";
-    p1D.print();
+   
+    cout << "Testing Default Constructor" << endl;
+    PointType<int> centerP1, circumP1;
 
-    cout << "\nConstructor with parameters" << endl;
-    PointType<int> p2I(3, 5);
-    PointType<double>p2D(3.5, 5.5);
-    cout << "Integer point: ";
-    p2I.print();
-    cout << "Double point: ";
-    p2D.print();
+    cout << "Center point: ";
+    centerP1.print();
+    cout << "Circumference point: ";
+    circumP1.print();
+    cout << endl;
 
-    cout << "\n(Integer) Distance = ";
-    double distance = p1I - p2I;
-    cout << distance << endl;
+    CircleType<int> Cir1;
+    Cir1.printCenterPoint();
 
-    cout << "\n(double) Distance = ";
-    distance = p1D - p2D;
-    cout << distance << endl;
+    cout << "Test constructor with parameters" << endl;
+    PointType<double> centerP2(5.3, 6.7), circumP2(-6.2, 7.5);
+    cout << "Center point: ";
+    centerP2.print();
+    cout << endl;
+
+    //cout << "Testing the copy constructor" << endl;
+    //PointType<int> xCen, xCir;
 
 
 }

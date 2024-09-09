@@ -20,19 +20,23 @@ public:
 	  void setCircumPoint(T, T);
 
 
-	//Returns the values 
+	//Returns the center point
 	  PointType<T> getCenterPoint();
-	//Returns the value 
-	  PointType<T> getCircumPOint();
+	//Returns the value  for the x and y coordinates of the circumference point
+	  PointType<T> getCircumPoint();
+
+	//Return the x, y coordinates of the center point
+
+
 
 	// Displays the (x, y) coordinates of the center point
 	  void printCenterPoint();
 
 	  // Displays the (x, y) coordinates of the circumference point
-	  void printCircumPoint;
+	  void printCircumPoint();
 
 	  // Returns the radius of the circle
-	  double calcRadius;
+	  double calcRadius();
 
 	  // Returns the area of the circle
 	  double calcArea();
@@ -64,4 +68,36 @@ circumPoint(xCircum, yCircum) { }
 template <class T>
 CircleType<T>::CircleType(PointType<T> center, PointType<T> circum) : centerPoint(center), circumPoint(circum){}
 
+
+template <class T>
+void CircleType<T>::setCenterPoint(T xC, T yC) {
+	centerPoint.setX(xC);
+	centerPoint.setY(yC);
+}
+
+template <class T>
+void CircleType<T>::setCircumPoint(T xC, T yC)
+{
+	circumPoint.setX(xC);
+	circumPoint.setY(yC);
+}
+
+template<class T>
+PointType<T> CircleType<T>::getCenterPoint()
+{
+	return centerPoint;
+}
+
+template <class T>
+void CircleType<T>::getCenterPoint(T& xC, T& yC)
+{
+	xC = centerPoint.getX();
+	yC = centerPoint.getY();
+}
+
+template <class T>
+PointType<T> CirckeType<T> ::getCircumPoint()
+{
+	return circumPoint;
+}
 
