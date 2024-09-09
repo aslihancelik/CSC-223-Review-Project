@@ -40,7 +40,7 @@ public:
 
 	  // Returns the area of the circle
 	  double calcArea();
-
+	  //
 	  // Returns the circumference of the circle
 	  double calcCircumference();
 	  
