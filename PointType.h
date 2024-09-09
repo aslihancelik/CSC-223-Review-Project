@@ -18,7 +18,7 @@ public:
 
 	//Setters
 	void setX(T Ux) { x = Ux; }
-	void set(T Uy) { y = Uy; }
+	void setY(T Uy) { y = Uy; }
 	void setPoint(T Ux, T Uy) {
 		x = Ux;
 		y = Uy;
