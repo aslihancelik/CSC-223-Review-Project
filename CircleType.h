@@ -43,7 +43,7 @@ public:
 
 	  // Returns the circumference of the circle
 	  double calcCircumference();
-
+	  //
 	  // Writes the radius, area, and circumference of the circle to the display
 	  void print();
 
