@@ -26,7 +26,7 @@ int main()
     cout << "Center point: ";
     centerP2.print();
     cout << endl;
-
+    //
     //cout << "Testing the copy constructor" << endl;
     //PointType<int> xCen, xCir;
 
