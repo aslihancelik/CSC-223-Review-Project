@@ -29,6 +29,8 @@ int main()
     Cir1.setCircumPoint(6, -2);
     cout << "Center Point: ";
     Cir1.printCenterPoint();
+    cout << "Circumference Point: ";
+    Cir1.printCircumPoint();
 
     cout << "Testing getCenterPoint, getCircumPoint" << endl;
     double x1, y1, x2, y2;
