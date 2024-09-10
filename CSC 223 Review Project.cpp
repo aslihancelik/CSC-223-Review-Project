@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-#include "PointType.h"
+#include "CircleType.h"
 
 using namespace std;
 
@@ -10,26 +10,32 @@ int main()
 {
    
     cout << "Testing Default Constructor" << endl;
-    PointType<int> centerP1, circumP1;
-
-    cout << "Center point: ";
-    centerP1.print();
-    cout << "Circumference point: ";
-    circumP1.print();
-    cout << endl;
-
     CircleType<int> Cir1;
+    cout << "Center point: ";
     Cir1.printCenterPoint();
+    cout << "Circumference point: ";
+    Cir1.printCircumPoint();
+    cout << endl;
 
     cout << "Test constructor with parameters" << endl;
-    PointType<double> centerP2(5.3, 6.7), circumP2(-6.2, 7.5);
+    CircleType<double> Cir2(5.5, 7.2, -6.4, 3.3);
     cout << "Center point: ";
-    centerP2.print();
-    cout << endl;
-    ////
-    //cout << "Testing the copy constructor" << endl;
-    //PointType<int> xCen, xCir;
+    Cir2.printCenterPoint();
+    cout << "Circumference Point:";
+    Cir2.printCircumPoint();
 
+    cout << "Testing setCenterPoint, setCircumPoint" << endl;
+    Cir1.setCenterPoint(3, 7);
+    Cir1.setCircumPoint(6, -2);
+    cout << "Center Point: ";
+    Cir1.printCenterPoint();
+
+    cout << "Testing getCenterPoint, getCircumPoint" << endl;
+    double x1, y1, x2, y2;
+    Cir2.getCenterPoint(x1, y1);
+    Cir2.getCircumPoint(x2, y2);
+    cout << "x1 = " << x1 << " y1 = " << y1 << " x2 = " << x2 << " y2 = " << y2 << endl;
+    
 
 }
 
