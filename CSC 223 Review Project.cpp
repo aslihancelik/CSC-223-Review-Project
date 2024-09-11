@@ -31,7 +31,6 @@ int main()
     p2D.print();
     cout << endl;
 
-
     // Test for both Set and Get X and Y for Integer Point 
     p1I.setX(10);
     p1I.setY(20);
@@ -53,8 +52,7 @@ int main()
     p1D.setPoint(7.7, 14.4);
     p1D.getPoint(dx, dy);
     cout << "Double point after setting point (7.7, 14.4): (" << dx << ", " << dy << ")" << endl;
-
-
+    
     cout << "\n(Integer) Distance = ";
     double distance = p1I - p2I;
     cout << distance << endl;
