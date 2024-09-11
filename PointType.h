@@ -1,3 +1,11 @@
+/*
+This program defines a template class, PointType, to represent points in a two-dimensional plane.
+The class provides functions to set and retrieve x and y coordinates, calculate the distance between
+two points, and overload the subtraction (-) operator to return the distance between two PointType objects.
+The class template supports both integer and decimal coordinates, and includes constructors for initializing
+PointType objects.
+*/
+
 #pragma once
 #include <iostream>
 #include <iomanip>
