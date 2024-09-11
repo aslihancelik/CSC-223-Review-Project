@@ -53,10 +53,12 @@ int main()
     p1D.getPoint(dx, dy);
     cout << "Double point after setting point (7.7, 14.4): (" << dx << ", " << dy << ")" << endl;
     
+    //Distance between two integer points
     cout << "\n(Integer) Distance = ";
     double distance = p1I - p2I;
     cout << distance << endl;
 
+    //Distance between two double points
     cout << "\n(Double) Distance = ";
     distance = p1D - p2D;
     cout << distance << endl;
