@@ -172,3 +172,16 @@ void CircleType<T>::print()
 	cout << "Circumference: " << calcCircumference() << endl;
 }
 */
+
+template <class T>
+void CircleType<T>::print()
+{
+	cout << "Center point: ";
+	printCenterPoint();
+	cout << "Circumference point: ";
+	printCircumPoint();
+	cout << "Radius: " << calcRadius() << endl;
+	cout << "Area: " << calcArea() << endl;
+	cout << "Circumference: " << calcCircumference() << endl;
+	
+}
