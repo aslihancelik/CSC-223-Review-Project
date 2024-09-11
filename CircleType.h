@@ -1,3 +1,10 @@
+/*
+CircleType.h : This header file defines a template class, CircleType, that represents a circle in a two-dimensional plane.
+The circle is defined using the PointType class for both the center and a point on the circumference. The class includes
+constructors, setters, and getters for the circle's properties. It provides member functions to calculate and return the
+radius, circumference, and area of the circle, as well as a function to print these values.
+*/
+
 #pragma once
 #include "PointType.h"
 template <class T>

@@ -1,5 +1,8 @@
-// CSC 223 Review Project.cpp : This is the main to test the CircleType class
-//
+/*
+CSC 223 Review Project.cpp : This program tests the CircleType class by creating circle objects with both integer and
+floating-point coordinates. It demonstrates the use of constructors, setters, and getters, and verifies the calculation
+and printing of the circle's radius, circumference, and area.
+*/
 
 #include <iostream>
 #include "CircleType.h"
