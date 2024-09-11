@@ -47,8 +47,7 @@ int main()
     cout << "x1 = " << x1 << " y1 = " << y1 << " x2 = " << x2 << " y2 = " << y2 << endl;
     cout << endl;
 
-    cout << "Testing the calculations for radius, circumference and" << endl;
-    cout << "area for Circle2 " << endl;
+    cout << "Testing the calculations for radius, circumference and area for Circle2 " << endl;
     Cir2.print();
     cout << endl;
     
