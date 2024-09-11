@@ -1,6 +1,5 @@
-// CSC 223 Review Project.cpp : This file contains the code for yhr Review 
-// which will be three branches, PointType Class, CircleType Class, CylinderType Class
-//
+// CSC 223 Review Project.cpp : This file contains the code for the Review Project
+// which will be three branches, PointType Class, CircleType Class, CylinderType Class.
 
 #include <iostream>
 
