@@ -2,8 +2,10 @@
 CSC 223 Review Project.cpp : This program tests the PointType class template by creating points
 with integer and floating-point coordinates, printing them, testing the set and get functions,
 and calculating the distance between two points using the overloaded subtraction operator.
+*
+* 
+* Programmer:Aslihan Celik
 */
-
 
 #include <iostream>
 #include "PointType.h"
@@ -12,7 +14,6 @@ using namespace std;
 
 int main()
 {
-    //cout << fixed << setprecision(1) << showpoint;
     cout << "From default constructor" << endl;
     PointType<int> p1I;
     PointType<double> p1D;
@@ -31,12 +32,12 @@ int main()
     cout << endl;
 
 
-    // Integer Point - Set and Get X and Y
+    // Test for both Set and Get X and Y for Integer Point 
     p1I.setX(10);
     p1I.setY(20);
     cout << "Integer point after setting X = 10 and Y = 20: (" << p1I.getX() << ", " << p1I.getY() << ")" << endl;
 
-    // Double Point - Set and Get X and Y
+    // Test for both Set and Get X and Y for Double Point 
     p1D.setX(12.5);
     p1D.setY(25.5);
     cout << "Double point after setting X = 12.5 and Y = 25.5: (" << p1D.getX() << ", " << p1D.getY() << ")" << endl;

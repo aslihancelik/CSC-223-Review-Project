@@ -10,7 +10,9 @@ PointType objects.
 #include <iostream>
 #include <iomanip>
 #include <cmath>
+
 using namespace std;
+
 template <class T>
 class PointType
 {
