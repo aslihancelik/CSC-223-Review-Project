@@ -1,4 +1,4 @@
-// CSC 223 Review Project.cpp : This is the main to test the PointType class
+// CSC 223 Review Project.cpp : This is the main to test the CircleType class
 //
 
 #include <iostream>
@@ -23,6 +23,7 @@ int main()
     Cir2.printCenterPoint();
     cout << "Circumference Point:";
     Cir2.printCircumPoint();
+    cout << endl;
 
     cout << "Testing setCenterPoint, setCircumPoint" << endl;
     Cir1.setCenterPoint(3, 7);
@@ -31,6 +32,7 @@ int main()
     Cir1.printCenterPoint();
     cout << "Circumference Point: ";
     Cir1.printCircumPoint();
+    cout << endl;
 
     cout << "Testing getCenterPoint, getCircumPoint" << endl;
     double x1, y1, x2, y2;

@@ -40,7 +40,7 @@ public:
 
 	void print()
 	{
-		cout << "(" << x << "," << y << ")" << endl;
+		cout << "(" << x << " , " << y << ")" << endl;
 	}
 
 	

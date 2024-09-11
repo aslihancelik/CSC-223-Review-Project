@@ -4,51 +4,51 @@ template <class T>
 class CircleType
 {
 public:
-	//Define static constant for the value of PI.
+	// Define static constant for the value of PI.
 	static const double PI;
 
-	//Default Constructor
-	  CircleType();
-	//Constructor with coordinates sent in
-	  CircleType(T, T, T, T);
+	// Default Constructor
+	CircleType();
+	// Constructor with coordinates sent in
+	CircleType(T, T, T, T);
 
 	//Constructor with points sent in
 	//  CircleType(PointType<T>, PointType<T>);
 
-	//Sets coordinates for the radius point 
-	  void setCenterPoint(T, T);
-	//Sets coordinates for the circumfrence point
-	  void setCircumPoint(T, T);
+	// Sets coordinates for the radius point 
+	void setCenterPoint(T, T);
+	// Sets coordinates for the circumfrence point
+	void setCircumPoint(T, T);
 
     //Returns the center point as an ordered pair
 	//  PointType<T> getCenterPoint();
 
-	//Returns the values for the x and y coordinates of the center point
-	  void getCenterPoint(T& xC, T& yC);
+	// Returns the values for the x and y coordinates of the center point
+	void getCenterPoint(T& xC, T& yC);
 
 	//Returns the circumference point as an ordered pair
 	//  PointType<T> getCircumPoint();
 
-	//Returns the values for the x and y coordinates of the circumference point
-	  void getCircumPoint(T& xC, T& yC);
+	// Returns the values for the x and y coordinates of the circumference point
+	void getCircumPoint(T& xC, T& yC);
 
 	// Displays the (x, y) coordinates of the center point
-	  void printCenterPoint();
+	void printCenterPoint();
 
-	  // Displays the (x, y) coordinates of the circumference point
-	  void printCircumPoint();
+	// Displays the (x, y) coordinates of the circumference point
+	void printCircumPoint();
 
-	  // Returns the radius of the circle
-	  double calcRadius();
+	// Returns the radius of the circle
+	double calcRadius();
 
-	  // Returns the area of the circle
-	  double calcArea();
+	// Returns the area of the circle
+	double calcArea();
 	  
-	  // Returns the circumference of the circle
-	  double calcCircumference();
+	// Returns the circumference of the circle
+	double calcCircumference();
 	  
-	  // Writes the radius, area, and circumference of the circle to the display
-	  void print();
+	// Writes the radius, area, and circumference of the circle to the display
+	void print();
 
 private:
 	PointType<T> centerPoint;
@@ -157,10 +157,11 @@ double CircleType<T>::calcArea()
 	return area;
 }
 
-template <class T>
+/*template <class T>
 void CircleType<T>::print()
 {
 	cout << "Radius: " << calcRadius() << endl;
 	cout << "Area: " << calcArea() << endl;
 	cout << "Circumference: " << calcCircumference() << endl;
 }
+*/
