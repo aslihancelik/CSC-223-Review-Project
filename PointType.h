@@ -40,6 +40,7 @@ public:
 		Uy = y;
 	}
 
+	//Overloading the - operator with distance calculation
 	double operator -(PointType<T> op2) {
 		double distance = sqrt(pow(x - op2.x, 2) + pow(y - op2.y, 2));
 		return distance;
