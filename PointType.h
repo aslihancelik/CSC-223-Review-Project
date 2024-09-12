@@ -47,6 +47,7 @@ public:
 
 	}
 
+	//Print the point with x and y coordinates
 	void print()
 	{
 		cout << "(" << x << " , " << y << ")" << endl;
