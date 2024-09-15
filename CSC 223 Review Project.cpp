@@ -4,6 +4,9 @@ which represents a cylinder in three-dimensional space. The program creates mult
 both with integer and real number types, and tests various operations such as setting and retrieving the center point,
 circumference point, and height of the cylinder. It also tests the calculation methods for the radius, area, circumference,
 surface area, and volume of the cylinder. The print function is used to display all these values for each test case.
+*
+* 
+*Programmer: Aslihan Celik
 */
 
 #include "CylinderType.h"
