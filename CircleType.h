@@ -20,7 +20,7 @@ public:
 	CircleType(T, T, T, T);
 
 	//Constructor with points sent in
-	//  CircleType(PointType<T>, PointType<T>);
+	//CircleType(PointType<T>, PointType<T>);
 
 	// Sets coordinates for the radius point 
 	void setCenterPoint(T, T);
