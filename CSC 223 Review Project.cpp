@@ -85,7 +85,6 @@ int main()
     cout << "   Height: " << cylinder5.getHeight();
     cout << endl << endl;
 
-
     cout << "Test setCenterPoint, setCircumPoint and setHeight with cylinder4: \n";
     cylinder4.setCenterPoint(5, 3);
     cylinder4.setCircumPoint(0, 3);
