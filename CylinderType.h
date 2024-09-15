@@ -16,8 +16,6 @@ public:
 	CylinderType();
 	//Constructor with coordinates sent in 
 	CylinderType(T, T, T, T, T);
-	//Constructors with points sent in 
-	CylinderType(PointType<T>, PointType<T>, T);
 
 	//Sets the height value
 	void setHeight(T);
