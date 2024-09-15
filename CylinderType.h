@@ -43,9 +43,6 @@ template <class T>
 CylinderType<T>::CylinderType(T xCenter, T yCenter, T xBase, T yBase, T h) : CircleType<T>(xCenter, yCenter, xBase, yBase), height(h) { }
 
 template <class T>
-CylinderType<T>::CylinderType(PointType<T> center, PointType<T> base, T h) : CircleType<T>(center, base), height(h) { }
-
-template <class T>
 void CylinderType<T>::setHeight(T h)
 {
 	height = h;
